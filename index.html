@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>company portfolio</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <div class="portfolio">
+        <div class="wrapper">
+            <section>
+                <div class="container">
+                    <div class="row">
+                        <nav>
+                            <div class="logo">
+                                <h4>MODERNA</h4>
+                            </div>
+                            <ul class="navbar" id="menuitems">
+                                <li><a href="">Home</a></li>
+                                <li><a href="">About Us</a></li>
+                                <li><a href="">Services</a></li>
+                                <li class="dropdown"><a href="" class="dropdown-toggle" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                        <li><a href="">Dropdown1</a></li>
+                                        <li><a href="">Dropdown2</a></li>
+                                        <li><a href="">Dropdown3</a></li>
+                                        <li><a href="">Dropdown4</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="">Portfolio</a></li>
+                                <li><a href="">Team</a></li>
+                                <li><a href="">Blog</a></li>
+                                <li><a href="">Contact Us</a></li>
+                            </ul>
+                            <span class="nav-icon" onclick="menutoggle()"><i class="fas fa-bars"></i></span>
+                        </nav>
+                    </div>
+                    <div class="slider-area">
+                        <div class="row">
+                            <div id="carouselExampleControls" class="carousel slide up-content" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                         <div class="item">
+                                            <h1>Welcome to Moderna</h1>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                            quis nostrud exercitation ullamco.
+                                            </p>
+                                            <a href="">Read More</a>
+                                         </div>
+                        
+                                    </div>
+                                    <div class="carousel-item">
+                                          <div class="item">
+                                            <h1>Mohammad Lanzu Hasan</h1>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                            consequat.
+                                            </p>
+                                            <a href="">Read More</a>
+                                         </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                          <div class="item">
+                                            <h1>Lorem Ipsum Dolor Sit</h1>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                            quis nostrud exercitation.
+                                            </p>
+                                            <a href="">Read More</a>
+                                         </div>
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev button-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next button-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="overlay"></div>
+            </section>
+            <div class="curve-svg">
+                <div class="custom-shape-divider-bottom-1642582119 curve-1">
+                    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                        <path d="M600,112.77C268.63,112.77,0,65.52,0,7.23V120H1200V7.23C1200,65.52,931.37,112.77,600,112.77Z" class="shape-fill"></path>
+                    </svg>
+                </div> 
+                <div class="custom-shape-divider-bottom-1642582427 curve-2">
+                    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                        <path d="M600,112.77C268.63,112.77,0,65.52,0,7.23V120H1200V7.23C1200,65.52,931.37,112.77,600,112.77Z" class="shape-fill"></path>
+                    </svg>
+                </div>
+            </div>
+            <div class="cards">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <div class="card-1">
+                                <span><i class="fab fa-dribbble"></i></span>
+                                <h5>Lorem Ipsum</h5>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus perferendis cum itaque numquam.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="card-2">
+                                <span><i class="fas fa-file-alt"></i></span>
+                                <h5>Lanzu Hasan</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi sint nam ad harum perspiciatis error!</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="card-3">
+                                <span><i class="fas fa-tachometer-alt"></i></span>
+                                <h5>Lorem Ipsum</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam illo eveniet, adipisci optio sapiente nemo.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="card-4">
+                                <span><i class="fas fa-globe-asia"></i></span>
+                                <h5>Lorem Ipsum</h5>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo recusandae hic quaerat dolorum totam?</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="video">
+                <div class="container">
+                    <div class="video-container">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="video-player">
+                                    <img src="img/play.jpg" alt="Image not found">
+                                    <span><i class="fas fa-play"></i></span>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="video-content">
+                                    <div class="row">
+                                        <div class="video-content-1">
+                                            <span><i class="fas fa-fingerprint"></i></span>
+                                            <div class="video-text">
+                                                <h5>Lorem ipsum</h5>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum necessitatibus assumenda, quasi tenetur consequatur cupiditate?</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="video-content-2">
+                                            <span><i class="fas fa-gift"></i></span>
+                                            <div class="video-text-1">
+                                                <h5>Lorem ipsum</h5>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum necessitatibus assumenda, quasi tenetur consequatur cupiditate?</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="feature-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="feature-heading">
+                            <h5>Feature</h5>
+                            <span></span>
+                            <hr>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde odit nemo nostrum voluptatibus mollitia ut neque adipisci ab libero impedit, tempora soluta. Expedita, est libero? Consequuntur ab inventore assumenda sapiente libero magnam, sunt perspiciatis quia facilis adipisci laudantium, eos minima.</p>
+                        </div>
+                    </div>
+                    <div class="feature-content-1">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="feature-img">
+                                    <img src="img/img1.png" alt="Image not found">
+                                </div>
+                            </div>
+                            <div class="col-lg-8">
+                                <div class="feature-content">
+                                    <h5>Lorem ipsum dolor sit amet consectetur adipisicing</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam quos eligendi assumenda rerum. Totam eveniet recusandae consectetur rem sint libero, dolor similique deleniti ratione nostrum.</p>
+                                    <ul>
+                                        <li><span><i class="fas fa-check"></i></span><p>Totam eveniet recusandae consectetur rem sint libero.</p></li>
+                                        <li><span><i class="fas fa-check"></i></span><p>Consequuntur ab inventore assumenda sapiente libero magnam.</p></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="feature-content-2">
+                        <div class="row">
+                            <div class="col-lg-8">
+                                <div class="feature-content">
+                                    <h5>Lorem ipsum dolor sit amet consectetur adipisicing</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam quos eligendi assumenda rerum. Totam eveniet recusandae consectetur rem sint libero.</p>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam officiis ab accusamus illum veniam, optio, ut odio sit saepe officia voluptates odit ducimus eveniet? Numquam sed quasi aperiam debitis rerum. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero, odio.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="feature-img">
+                                    <img src="img/img2.png" alt="Image not found">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="feature-content-3">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="feature-img">
+                                    <img src="img/img3.png" alt="Image not found">
+                                </div>
+                            </div>
+                            <div class="col-lg-8">
+                                <div class="feature-content">
+                                    <h5>Lorem ipsum dolor sit amet consectetur adipisicing</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam quos eligendi assumenda rerum. Totam eveniet recusandae consectetur rem sint libero.</p>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui debitis rem perferendis, eaque tempora id, reiciendis cum ducimus harum delectus eligendi itaque corporis iure. Recusandae, explicabo debitis illum in aliquam itaque qui doloremque soluta ad similique quos ipsa eaque, maiores laborum architecto aliquid cupiditate enim assumenda cumque repellendus! Eius, quidem.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="feature-content-4">
+                        <div class="row">
+                            <div class="col-lg-8">
+                                <div class="feature-content">
+                                    <h5>Lorem ipsum dolor sit amet consectetur adipisicing</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam quos eligendi assumenda rerum. Totam eveniet recusandae consectetur rem sint libero, dolor similique deleniti ratione nostrum.</p>
+                                    <ul>
+                                        <li><span><i class="fas fa-check"></i></span><p>Totam eveniet recusandae consectetur rem sint libero.</p></li>
+                                        <li><span><i class="fas fa-check"></i></span><p>Consequuntur ab inventore assumenda sapiente libero magnam.</p></li>
+                                        <li><span><i class="fas fa-check"></i></span><p>Qui debitis rem perferendis, eaque tempora id.</p></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="feature-img">
+                                    <img src="img/img4.png" alt="Image not found">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- main script -->
+    <script src="script.js"></script>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+@media only screen and (max-width: 992px) {
+  nav {
+    position: relative;
+    z-index: 1111;
+  }
+
+  nav .navbar {
+    display: block;
+    position: absolute;
+    top: 85px;
+    background: #1B4660;
+    width: 35%;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    transition: max-height 0.5s;
+    overflow: hidden;
+  }
+
+  nav .navbar li {
+    display: block;
+  }
+
+  nav .navbar li a {
+    color: #fff;
+    display: block;
+    padding: 15px 0;
+  }
+
+  .nav-icon {
+    display: block;
+  }
+
+  .dropdown-menu {
+    margin-top: 0 !important;
+    padding: 0;
+    background: #1B4660;
+    overflow: hidden;
+    right: 0;
+    left: inherit !important;
+  }
+}
+
+/*# sourceMappingURL=responsive.css.map */
